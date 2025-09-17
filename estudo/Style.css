@@ -1,0 +1,141 @@
+body{
+
+}
+header{
+    background-color: rgb(20, 218, 102);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #2ecc71
+}
+nav li{
+    margin: 0 10px;
+}
+nav a{
+    font-family: sans-serif;
+}
+nav a:hover {
+    background-color: green;
+}
+.Home{
+    border: 1px solid black; 
+    display: flex;
+    margin: 10px 400px;
+    border-radius: 10px;
+    background-color: #2ecc71;
+    height: 200px;
+
+}
+.servicos{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 10px 400px;
+    border-radius: 10px;
+    background-color: #28b161;
+    height: 200px;
+}
+.Cadstros{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 10px 400px;
+    border-radius: 10px;
+    background-color: #1e8147;
+    height: 200px;
+}
+.Planos{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 10px 400px;
+    border-radius: 10px;
+    background-color: #13572f;
+    height: 200px;
+}
+.cadastro{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 100px 35%;
+    border-radius: 10px;
+    background-color: #2cc76d;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formularios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+.produto{
+    border: 1px solid black;
+    background-color: #13572f;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.produto a{
+    color: aliceblue;
+}
+.Area_cadstro{
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    margin: 80px 500px;
+    background-color: #45da83;
+    border-radius: 20px;
+}
+.titulo{
+    
+}
+.froms_cliente{
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input_box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+table{
+    /* border: 1px solid black; */
+    width: 400px;
+    border-collapse: collapse;
+}
+td{
+    border:1px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+tr {
+
+}
